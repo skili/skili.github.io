@@ -18,9 +18,9 @@
 </head>
 <body>
 <main>
-  <p><a href="index.html">← Blooku</a></p>
+  <p><a href='/'>← Blooku</a></p>
   <h1>Privacy Policy</h1>
-  <p class="date">Last updated: 26 October 2026</p>
+  <p class="date">Last updated: 14 November 2026</p>
 
   <p>This policy explains what the Blooku app ("Blooku", "we") collects, why, and what you can do about it. Questions: <a href="mailto:ineifepaul@gmail.com">ineifepaul@gmail.com</a>.</p>
 
@@ -32,14 +32,16 @@
     <li><strong>What you do in the app:</strong> likes, which posts you viewed and when, who you follow, who you block, the groups you join or create, join requests, group mutes, and reports you send.</li>
     <li><strong>Notifications:</strong> the notifications made for you, and a push token from your phone so we can send alerts. You can switch each kind of alert off in Settings.</li>
     <li><strong>Activity time:</strong> the time you were last active in the app (one time per account).</li>
+    <li><strong>Crash reports:</strong> when the app crashes or hits an error, a short report: what went wrong, where in the app's code, your phone model and Android version, and the app version. It does not include your name, email, account id, IP address, posts, comments or messages.</li>
   </ul>
-  <p>During sign-up we ask your birthday only to check that you are 16 or older. It is never saved or shown.</p>
+  <p>During sign-up we ask your birthday only to check that you are 13 or older, before anything else about you is saved. It is never saved or shown.</p>
   <p>We do not collect your location, your contacts, or advertising IDs. Blooku has no ads.</p>
 
   <h2>2. Who can see what</h2>
   <ul>
     <li>Your username, name, photo, bio and follower counts are visible to other users.</li>
     <li>Your posts are visible to your followers, to members of the groups you post them in, and, for posts made in no group or in a public group, to other Blooku users. Posts in a private group are visible only to its members.</li>
+    <li><strong>On the web:</strong> your profile (photo, name, @username, bio and counts) and up to 10 of your recent public posts (made in no group or in a public group, from the last 7 days, never "view once") can also be seen on the Blooku website by anyone with the link, without a Blooku account. The same is true for a public group's page and its recent posts. A private group shows only its name, photo and a lock there, never its posts or members.</li>
     <li>Anyone who can see a post can see its likes, comments and who viewed it.</li>
     <li>If you block someone, neither of you sees the other's posts or activity.</li>
   </ul>
@@ -51,7 +53,10 @@
   <ul>
     <li><strong>Supabase</strong> stores your account, posts, photos and videos, and runs our server.</li>
     <li><strong>Google Sign-In</strong> signs you in.</li>
+    <li><strong>Expo push service</strong> passes our push alerts on to your phone. It receives only the alert text and, where there is one, the profile photo of the person who did the action.</li>
     <li><strong>Firebase Cloud Messaging (Google)</strong> delivers push alerts to Android phones. It receives only the alert text and, where there is one, the profile photo of the person who did the action. It stores no other Blooku data.</li>
+    <li><strong>Sentry</strong> receives those crash reports so we can fix problems. Its data is stored in the European Union.</li>
+    <li><strong>Netlify</strong> hosts the Blooku website (this page and the web pages of profiles and groups).</li>
   </ul>
 
   <h2>5. How long we keep it</h2>
@@ -70,7 +75,7 @@
   </ul>
 
   <h2>7. Age</h2>
-  <p>Blooku is for people aged 16 and over.</p>
+  <p>Blooku is for people aged 13 and over.</p>
 
   <h2>8. Changes</h2>
   <p>If we change this policy we will update the date above.</p>
